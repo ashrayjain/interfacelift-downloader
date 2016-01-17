@@ -25,7 +25,9 @@
     "test": "grunt travis --verbose"
   },
   "preferGlobal": true,
-  "dependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
   "devDependencies": {
     "grunt": "~0.4",
     "grunt-contrib-jshint": "~0.11",
